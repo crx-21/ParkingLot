@@ -1,4 +1,3 @@
-<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@tag description="base page template" pageEncoding="UTF-8"%>
 <%@attribute name="pageTitle"%>
 <!DOCTYPE html>
