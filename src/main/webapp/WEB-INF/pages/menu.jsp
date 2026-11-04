@@ -18,18 +18,23 @@
                            href="${pageContext.request.contextPath}/Cars">Cars</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/")) eq '/users.jsp' ? 'active' : ''}"
+                           href="${pageContext.request.contextPath}/Users">Users</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link" href="${pageContext.request.contextPath}/Login">Login</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="${pageContext.request.contextPath}/Login">Login</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
 <footer class="container">
- <p class="float-end"><a href="#">Back to top</a>
- </p> <p>&copy; 2017–2025 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> </footer>
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2025 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
